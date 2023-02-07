@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`rend correctemen 1`] = `
+Array [
+  <div>
+    <h1>
+      My todo-list
+    </h1>
+    <form
+      onSubmit={[Function]}
+    >
+      <input
+        className="inputAdd"
+        data-testid="inputAdd"
+        id=""
+        name=""
+        onChange={[Function]}
+        placeholder="New todo..."
+        type="text"
+        value=""
+      />
+    </form>
+  </div>,
+  <div
+    className="bodytodo"
+  >
+    <div
+      className="todo"
+    >
+      <h2
+        className="title"
+      >
+        Todo
+      </h2>
+      <hr />
+      <div
+        className="scroller"
+      />
+    </div>
+    <div
+      className="done"
+    >
+      <h2
+        className="title"
+      >
+        Done
+      </h2>
+      <hr />
+      <div
+        className="scroller"
+      />
+    </div>
+  </div>,
+]
+`;

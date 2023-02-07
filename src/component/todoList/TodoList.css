@@ -1,0 +1,57 @@
+.bodytodo {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    margin-top: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 42vh;
+}
+
+.todo {
+    flex-basis: 50%;
+    margin: 0 1em;
+    border-radius: 15px;
+    border: solid 3px ;
+}
+
+.done {
+    flex-basis: 50%;
+    margin: 0 1em;
+    border-radius: 15px;
+    border: solid 3px ;
+}
+
+.title {
+    margin: 0;
+    padding: 8px;
+}
+
+.checkbox {
+    text-align: left;
+    margin: 5px;
+    padding: 1em;
+    color: rgb(23, 23, 23);
+    border-radius: 25px;
+    border: solid 2px rgb(112, 96, 96);
+}
+
+.inputAdd {
+    border-radius: 25px;
+    border: solid 2px rgb(112, 96, 96);
+    padding: 1em;
+    width: 30vw;
+}
+.inputAdd:focus {
+  border: 2px solid #ccc;
+  outline: none;
+}
+.scroller {
+   overflow-y: scroll;
+   height: 31vh;
+   scrollbar-color: #8b8b89 #fbfbfb;
+   scrollbar-width: thin;  
+}
+
+h2 {
+    color: black;
+}
