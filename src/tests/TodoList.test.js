@@ -86,7 +86,7 @@ it('it add to done', () => {
     expect(done).toBeInTheDocument;
 });
 
-it('rend correctement', () => {
+it('rend correctement [SNAPSHOT]', () => {
     const container =  renderer
         .create(<TodoList/>)
         .toJSON();
